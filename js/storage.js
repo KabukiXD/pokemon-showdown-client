@@ -50,7 +50,7 @@ Storage.bg = {
 	load: function (bgUrl, bgid, hues) {
 		this.id = bgid;
 		if (!bgid) {
-			if (location.host === 'https://limitless-bayou-72508.herokuapp.com/') {
+			if (location.host === 'smogtours.psim.us') {
 				bgid = 'shaymin';
 			} else if (location.host === Config.routes.client) {
 				bgid = ['horizon', 'ocean', 'waterfall', 'shaymin', 'charizards', 'psday'][Math.floor(Math.random() * 6)];
